@@ -1,7 +1,7 @@
 GLaDOS RetroFE Theme
 ----------------------------------------------------------
 
-
+A unified RetroFE theme.
 
 
 
