@@ -1,0 +1,13 @@
+<!-- Splash Screen Layout Settings -->
+<layout width="1920" height="1080" font="BebasNeue.ttf" loadFontSize="32" fontColor="dedede" minShowTime="2">
+   
+<!-- Background Image -->
+  <image src="Art/Global-Background.png" x="0" y="0" height="stretch" width="stretch" layer="0"/>
+
+<!-- Logo -->
+   <image src="Art/Logo.png" x="center" y="center" height="400" xOrigin="center" yOrigin="center" layer="1" alpha="1"/>
+    
+<!-- Meta.db Building Text -->
+   <statusText x="0" y="bottom" xOffset="20" yOrigin="center" yOffset="-175" height="150" width="stretch" fontSize="40" layer="3" />  
+
+</layout>
