@@ -32,7 +32,7 @@
 
   <!-- Story Text -->
 
-  <reloadableScrollingText type="story" alpha="1" xOffset="1370" x="left" y="860" xOrigin="center" yOrigin="top" width="900" height="200" fontSize="30" loadFontSize="50" direction="vertical" scrollingSpeed="15" startPosition="0" alignment="justified" startTime="5" endTime="1" alpha="1" layer="5">
+  <reloadableScrollingText type="story" alpha="1" xOffset="1370" x="left" y="860" xOrigin="center" yOrigin="top" width="900" height="200" fontSize="30" loadFontSize="30" direction="vertical" scrollingSpeed="15" startPosition="0" alignment="justified" startTime="5" endTime="1" alpha="1" layer="5">
     <onMenuEnter menuIndex="0">
       <set duration=".3">
         <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
@@ -82,7 +82,7 @@
   
   <!-- Meta Labels -->
   
-  <text value="Year:" maxWidth="1000" x="left" y="center" xOrigin="left" yOrigin="center" xOffset="560" yOffset="380" fontSize="50" layer="7">
+  <text value="Year:" maxWidth="1000" x="left" y="center" xOrigin="left" yOrigin="center" xOffset="560" yOffset="380" fontSize="50" loadFontSize="50" layer="7">
     <onMenuEnter menuIndex="0">
       <set duration=".3">
         <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
@@ -105,7 +105,7 @@
     </onHighlightExit>
   </text>
   
-  <text value="Type:" maxWidth="1000" x="left" y="center" xOrigin="left" yOrigin="center" xOffset="560" yOffset="460" fontSize="50"  layer="7">
+  <text value="Type:" maxWidth="1000" x="left" y="center" xOrigin="left" yOrigin="center" xOffset="560" yOffset="460" fontSize="50" loadFontSize="50" layer="7">
     <onMenuEnter menuIndex="0">
       <set duration=".3">
         <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
@@ -130,7 +130,7 @@
 
   <!-- Year Text -->
   
-  <reloadableText type="year" maxWidth="1000" x="left" y="center" xOrigin="left" yOrigin="center" xOffset="660" yOffset="380" fontSize="50" layer="4">
+  <reloadableText type="year" maxWidth="1000" x="left" y="center" xOrigin="left" yOrigin="center" xOffset="660" yOffset="380" fontSize="50" loadFontSize="50" layer="4">
     <onMenuEnter menuIndex="0">
       <set duration=".3">
         <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
@@ -155,7 +155,7 @@
   
   <!-- Genre Text -->
   
-  <reloadableText type="genre" maxWidth="1000" x="left" y="center" xOrigin="left" yOrigin="center" xOffset="660" yOffset="460" fontSize="50" layer="4">
+  <reloadableText type="genre" maxWidth="1000" x="left" y="center" xOrigin="left" yOrigin="center" xOffset="660" yOffset="460" fontSize="50" loadFontSize="50" layer="4">
     <onMenuEnter menuIndex="0">
       <set duration=".3">
         <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
@@ -269,7 +269,7 @@
   <!-- Main Menu Logo List -->
 
   <menu type="custom" imageType="logo" scrollTime=".24" scrollAcceleration=".04" orientation="horizontal" x="0" width="center" y="center" yOffset="-400" algorithm="easeincircular" >
-    <itemDefaults x="center" y="center" yOrigin="center" xOrigin="center" width="300" maxHeight="175" spacing="10" yOffset="-400" alpha="0.5" fontSize="60" layer="6"/>
+    <itemDefaults x="center" y="center" yOrigin="center" xOrigin="center" width="300" maxHeight="175" spacing="10" yOffset="-400" alpha="0.5" fontSize="60" loadFontSize="60" layer="6"/>
     <item xOffset="-1420" alpha="0" />
     <item xOffset="-1060">
       <onMenuEnter menuIndex="0">
@@ -461,7 +461,7 @@
   <!-- Sub Menu Logo List -->
 
   <menu type="custom" imageType="logo" scrollTime=".24" scrollAcceleration=".04" orientation="vertical" x="0" width="center" y="center" xOffset="710" algorithm="easeincircular" >
-    <itemDefaults x="center" y="center" yOrigin="center" xOrigin="center" width="300" maxHeight="175" spacing="10" xOffset="710" alpha="0.5" fontSize="60" layer="6"/>
+    <itemDefaults x="center" y="center" yOrigin="center" xOrigin="center" width="300" maxHeight="175" spacing="10" xOffset="710" alpha="0.5" fontSize="60" loadFontSize="60" layer="6"/>
     <item yOffset="-749" alpha="0" />
     <item yOffset="-546">
       <onMenuEnter menuIndex="1">
@@ -683,7 +683,7 @@
 
   <!-- Title Text -->
 
-  <reloadableText type="title" maxWidth="1000" x="center" y="center" xOrigin="center" yOrigin="center" xOffset="-204" yOffset="369" fontSize="60" alpha="0" layer="4">
+  <reloadableText type="title" maxWidth="1000" x="center" y="center" xOrigin="center" yOrigin="center" xOffset="-204" yOffset="369" fontSize="60" loadFontSize="60" alpha="0" layer="4">
     <onMenuEnter menuIndex="1">
       <set duration=".3">
         <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
@@ -708,7 +708,7 @@
 
   <!-- Manufacturer Text -->
 
-  <reloadableText type="manufacturer" maxWidth="1000" x="center" y="center" xOrigin="center" yOrigin="center" xOffset="-204" yOffset="419" fontSize="60" alpha="0" layer="4">
+  <reloadableText type="manufacturer" maxWidth="1000" x="center" y="center" xOrigin="center" yOrigin="center" xOffset="-204" yOffset="419" fontSize="60" loadFontSize="60" alpha="0" layer="4">
     <onMenuEnter menuIndex="1">
       <set duration=".3">
         <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
@@ -734,7 +734,7 @@
   
   <!-- Year Text -->
 
-  <reloadableText type="year" maxWidth="1000" x="center" y="center" xOrigin="center" yOrigin="center" xOffset="-204" yOffset="469" fontSize="60" alpha="0" layer="4">
+  <reloadableText type="year" maxWidth="1000" x="center" y="center" xOrigin="center" yOrigin="center" xOffset="-204" yOffset="469" fontSize="60" loadFontSize="60" alpha="0" layer="4">
     <onMenuEnter menuIndex="1">
       <set duration=".3">
         <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
