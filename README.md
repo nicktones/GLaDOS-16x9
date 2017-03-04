@@ -10,10 +10,10 @@ SCREENSHOTS / VIDEO
 ----------------------------------------------------------
 
 Main Menu
-http://i.imgur.com/0qBbq6V.png
+http://i.imgur.com/Xge9p0z.jpg
 
 System Menu
-http://i.imgur.com/6P9fIWl.png
+http://i.imgur.com/ROrKEjt.png
 
 Video
 https://youtu.be/DMVwI5eOXN0
