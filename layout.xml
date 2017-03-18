@@ -577,7 +577,7 @@
   
   <!-- Media Art -->
 
-  <reloadableImage type="medium_front" alpha="0" x="1400" height="300" maxWidth="300" y="800" xOrigin="right" yOrigin="bottom" layer="6">
+  <reloadableImage type="medium_front" alpha="0" x="1430" height="300" maxWidth="400" y="800" xOrigin="right" yOrigin="bottom" layer="6">
     <onMenuEnter menuIndex="1">
       <set duration=".2">
         <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
