@@ -27,8 +27,8 @@ Github:
 https://github.com/nicktones/GLaDOS-16x9
 
 
-Latest Release (v1.1):
-https://github.com/nicktones/GLaDOS-16x9/archive/v1.1.zip
+Latest Release (v1.2):
+https://github.com/nicktones/GLaDOS-16x9/archive/v1.2.zip
 
 
 Collections:
@@ -42,6 +42,11 @@ Manufacturer Logos:
 This is an updated set of manufacturer logos, from those included with the RetroFE release.  This is not yet complete, and logos aren't as high a quality as they could be - please post if you have better versions of these logos.  Add these to retrofe\collections\_common\medium_artwork\manufacturer
 
 https://drive.google.com/open?id=0By09f_kX5Z44VEN5SzVCaHVrVjA
+
+Score 
+This is an updated set of score logos, from those included with the RetroFE release. These images are not mine, but fit the theme nicely.  Add these to retrofe\collections\_common\medium_artwork\score\
+
+https://drive.google.com/open?id=0By09f_kX5Z44UzdKUEdWZkpFTkk
 
 
 System Stories & Device Images:
