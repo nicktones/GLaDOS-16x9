@@ -625,6 +625,56 @@
     </onHighlightEnter>
   </reloadableImage>
   
+  <!-- Number of Players  Art -->
+
+  <reloadableImage type="numberPlayers" mode="common" alpha="0" x="260" y="960" xOrigin="left" yOrigin="top" height="75" maxWidth="75" layer="10">
+    <onMenuEnter menuIndex="1">
+      <set duration=".01">
+        <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
+      </set>
+    </onMenuEnter>
+    <onMenuExit menuIndex="1">
+      <set duration=".01">
+        <animate type="alpha" from="1" to="0" algorithm="easeinquadratic"/>
+      </set>
+    </onMenuExit>
+    <onHighlightExit menuIndex="1">
+      <set duration=".3">
+        <animate type="alpha" from="1" to="0" algorithm="easeinquadratic"/>
+      </set>
+    </onHighlightExit>
+    <onHighlightEnter menuIndex="1">
+      <set duration=".3">
+        <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
+      </set>
+    </onHighlightEnter>
+  </reloadableImage>
+  
+  <!-- Score  Art -->
+
+  <reloadableImage type="score" mode="common" alpha="0" x="1180" y="965" xOrigin="right" yOrigin="top" height="65" maxWidth="65" layer="11">
+    <onMenuEnter menuIndex="1">
+      <set duration=".01">
+        <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
+      </set>
+    </onMenuEnter>
+    <onMenuExit menuIndex="1">
+      <set duration=".01">
+        <animate type="alpha" from="1" to="0" algorithm="easeinquadratic"/>
+      </set>
+    </onMenuExit>
+    <onHighlightExit menuIndex="1">
+      <set duration=".3">
+        <animate type="alpha" from="1" to="0" algorithm="easeinquadratic"/>
+      </set>
+    </onHighlightExit>
+    <onHighlightEnter menuIndex="1">
+      <set duration=".3">
+        <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
+      </set>
+    </onHighlightEnter>
+  </reloadableImage>
+  
   <!-- Rating  Art -->
 
   <reloadableImage type="rating" mode="common" alpha="0" x="1350" y="880" xOrigin="right" yOrigin="top" height="152" maxWidth="1250" layer="11">
