@@ -43,7 +43,7 @@ This is an updated set of manufacturer logos, from those included with the Retro
 
 https://drive.google.com/open?id=0By09f_kX5Z44VEN5SzVCaHVrVjA
 
-Score 
+Score Logos:
 This is an updated set of score logos, from those included with the RetroFE release. These images are not mine, but fit the theme nicely.  Add these to retrofe\collections\_common\medium_artwork\score\
 
 https://drive.google.com/open?id=0By09f_kX5Z44UzdKUEdWZkpFTkk
