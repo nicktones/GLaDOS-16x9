@@ -27,8 +27,8 @@ Github:
 https://github.com/nicktones/GLaDOS-16x9
 
 
-Latest Release (v1.3):
-https://github.com/nicktones/GLaDOS-16x9/archive/v1.3.zip
+Latest Release (v2.0):
+https://github.com/nicktones/GLaDOS-16x9/archive/v2.0.zip
 
 
 Collection Info Files:
