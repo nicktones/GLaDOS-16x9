@@ -270,7 +270,7 @@
   <!-- Main Menu Logo List -->
 
   <menu type="custom" imageType="logo" scrollTime=".24" scrollAcceleration=".04" orientation="horizontal" x="0" width="center" y="center" yOffset="-400" algorithm="easeincircular" >
-    <itemDefaults x="center" y="center" yOrigin="center" xOrigin="center" width="300" maxHeight="140" spacing="10" yOffset="-400" alpha="0.5" fontSize="60" loadFontSize="60" layer="6"/>
+    <itemDefaults x="center" y="center" yOrigin="center" xOrigin="center" width="300" maxHeight="140" spacing="10" yOffset="-400" alpha="0.3" fontSize="60" loadFontSize="60" layer="6"/>
     <item xOffset="-1420" alpha="0" />
     <item xOffset="-1060">
       <onMenuEnter menuIndex="0">
@@ -459,10 +459,11 @@
     </onHighlightExit>
   </image>
   -->
+  
   <!-- Sub Menu Logo List -->
 
   <menu type="custom" imageType="logo" scrollTime=".24" scrollAcceleration=".04" orientation="vertical" x="0" width="center" y="center" xOffset="710" algorithm="easeincircular" >
-    <itemDefaults x="center" y="center" yOrigin="center" xOrigin="center" width="300" maxHeight="140" spacing="10" xOffset="710" alpha="0.5" fontSize="60" loadFontSize="60" layer="6"/>
+    <itemDefaults x="center" y="center" yOrigin="center" xOrigin="center" width="300" maxHeight="150" spacing="10" xOffset="710" alpha="0.3" fontSize="60" loadFontSize="60" layer="6"/>
     <item yOffset="-749" alpha="0" />
     <item yOffset="-546">
       <onMenuEnter menuIndex="1">
@@ -710,23 +711,43 @@
   <!-- Video -->
 
   <reloadableVideo imageType="screenshot" x="center" xOffset="-590" y="center" yOffset="0" maxHeight="480" maxWidth="640" yOrigin="center" xOrigin="center" layer="2">
+    <onMenuEnter menuIndex="0">
+      <set duration=".2">
+        <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
+      </set>
+    </onMenuEnter>
+    <onMenuExit menuIndex="0">
+      <set duration=".2">
+	    <animate type="alpha" from="1" to="0" algorithm="easeinquadratic"/>
+      </set>
+    </onMenuExit>
+	<onMenuEnter menuIndex="1">
+      <set duration=".2">
+        <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
+      </set>
+    </onMenuEnter>
+    <onMenuExit menuIndex="1">
+      <set duration=".2">
+	    <animate type="alpha" from="1" to="0" algorithm="easeinquadratic"/>
+      </set>
+    </onMenuExit>
     <onHighlightEnter menuIndex="0">
-      <set duration=".4">
+      <set duration=".2">
         <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
       </set>
     </onHighlightEnter>
     <onHighlightExit menuIndex="0">
-      <set duration=".4">
+      <set duration=".2">
         <animate type="alpha" from="1" to="0" algorithm="easeinquadratic"/>
       </set>
     </onHighlightExit>
 	<onHighlightEnter menuIndex="1">
-      <set duration=".4">
+      <set duration=".2">
         <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
       </set>
     </onHighlightEnter>
     <onHighlightExit menuIndex="1">
-      <set duration=".4">
+      <set duration=".2">
         <animate type="alpha" from="1" to="0" algorithm="easeinquadratic"/>
       </set>
     </onHighlightExit>
@@ -734,7 +755,7 @@
 
   <!-- Title Text -->
   
-  <reloadableText type="title" maxWidth="1000" xOrigin="center" yOrigin="top" x="742" y="896" fontSize="60" loadFontSize="60" alpha="0" layer="4">
+  <reloadableText type="title" maxWidth="1000" xOrigin="center" yOrigin="top" x="738" y="896" fontSize="60" loadFontSize="60" alpha="0" layer="4">
     <onMenuEnter menuIndex="1">
       <set duration=".3">
         <animate type="alpha" from="0" to="1" algorithm="easeinquadratic"/>
